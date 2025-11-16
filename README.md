@@ -1,6 +1,6 @@
 Resume Screening
 
-This repository contains a machine learning project that automates the resume screening process using Python. The objective is to develop an efficient and accurate model capable of evaluating resumes based on predefined criteria.
+This repository contains a machine learning project that automates the resume screening process using Python. The goal is to build an efficient and accurate model capable of evaluating resumes based on predefined criteria.
 
 <img src="Cover.png" alt="resume cover">
 Table of Contents
@@ -35,64 +35,80 @@ Contact
 
 Why Resume Screening?
 
-Companies manually go through resumes, referrals, and applications for each recruitment cycle.
+Companies manually receive and review thousands of resumes for every job posting.
 
-Large organizations receive thousands of resumes for a single job posting.
+Resumes are categorized and forwarded to hiring teams, consuming significant time.
 
-These resumes are categorized and forwarded to hiring teams.
+Manually screening hundreds of resumes becomes inefficient and slow.
 
-Reviewing hundreds or thousands of resumes manually is extremely time-consuming.
+Machine learning and NLP drastically reduce screening time from days to minutes.
 
-To reduce manual effort, machine learning and NLP can automate screening and complete work that takes days in just a few minutes.
+Automated screening improves accuracy, consistency, and hiring efficiency.
 
 Introduction
 
-Resume screening involves evaluating whether a candidate is suitable for a role based on their education, experience, skills, and other resume details.
+Resume screening is the process of evaluating whether a candidate is suitable for a job role based on their:
 
-It is essentially a pattern-matching process between job requirements and candidate qualifications.
+Education
 
-The goal is simple:
-➡️ Shortlist qualified candidates
-➡️ Reject those who do not meet minimum requirements
+Experience
+
+Skills
+
+Achievements
+
+Additional resume details
+
+It works as a pattern-matching system between job requirements and candidate qualifications.
+
+The goal is to:
+
+Shortlist strong candidates
+
+Filter out unqualified ones
+
+Improve hiring workflow
 
 Modules & Libraries
 Modules
 
-KNN: A supervised learning technique used for classification tasks. The "K" represents the number of nearest neighbors considered for making predictions.
+KNN (K-Nearest Neighbors):
+A supervised learning model used for classification based on similarity.
 
-NLP: Natural Language Processing helps computers analyze, understand, and derive meaning from human language.
+NLP (Natural Language Processing):
+Enables the model to understand, analyze, and process human language.
 
 Libraries
 
-NumPy – Support for large multidimensional arrays and mathematical operations
+NumPy – Numerical computation
 
-Pandas – Data manipulation and analysis
+Pandas – Data handling & preprocessing
 
-Matplotlib – Creating graphs and visualizations
+Matplotlib – Plotting & visualizations
 
 Seaborn – Statistical visualizations
 
 SciPy – Scientific computing
 
-Scikit-learn – Machine learning algorithms (classification, clustering, etc.)
+Scikit-learn – Machine learning algorithms
 
-NLTK – Text processing and natural language analysis
+NLTK – Text preprocessing & language analysis
 
 Functionality
 
-The application screens resumes based on minimum and preferred qualifications such as:
+The system screens resumes based on both minimum and preferred qualifications, including:
 
 Work experience
 
 Education
 
-Technical and soft skills
+Skills & knowledge
 
 Competencies
 
 Personality traits
 
-These factors help evaluate candidate suitability for various job roles.
+These parameters help determine whether a candidate fits the job role.
 
 Tools & Technologies
 
@@ -106,26 +122,27 @@ Natural Language Processing
 
 Applicant Tracking System (ATS) concepts
 
-These technologies automate the manual process of resume screening.
+These technologies automate and streamline the resume screening process.
 
 Tech Innovations
 
-AI-based resume screening represents a new generation of recruitment tools.
-These tools:
+Modern AI-driven screening tools are designed to:
 
-Reduce repetitive screening work
+Reduce manual candidate filtering
 
-Integrate seamlessly with existing HR software
+Automate resume classification
 
-Enhance decision-making
+Integrate with existing HR systems
 
-Improve candidate filtering accuracy
+Increase hiring speed and efficiency
 
-This automation is transforming how companies manage hiring processes.
+Minimize human bias and errors
+
+AI is transforming how recruiters evaluate resumes and shortlist candidates.
 
 Installation
 
-To get started, clone the repository and install dependencies.
+To get started, clone this repository and install the required dependencies:
 
 git clone https://github.com/ujjawalanand851/Resume-Screening.git
 cd Resume-Screening
@@ -135,32 +152,32 @@ Usage
 
 Prepare your dataset of resumes
 
-Preprocess data using the provided scripts
+Preprocess the data using the available scripts
 
-Train machine learning models
+Train the machine learning model
 
 Use the trained model to screen new resumes
 
-Detailed steps are available in the Jupyter notebooks.
+Detailed instructions and demonstrations are available in the Jupyter notebooks included in the repository.
 
 Dataset
 
-The dataset consists of resumes from various sources.
-It is preprocessed to extract important features such as:
+The dataset consists of resumes collected from various sources.
+Data is preprocessed to extract features such as:
 
-Skills
+Technical skills
 
-Experience
+Work experience
 
 Education
 
 Keywords
 
-Profile information
+Relevant profile attributes
 
 Model
 
-Multiple machine learning models are implemented, including:
+This project includes multiple machine learning models such as:
 
 Logistic Regression
 
@@ -170,11 +187,11 @@ Random Forest
 
 Neural Networks
 
-Models are trained on labeled data to classify resumes as per defined categories.
+Each model is trained and evaluated on labeled resume data.
 
 Results
 
-Model performance is evaluated using:
+Model performance is evaluated using metrics like:
 
 Accuracy
 
@@ -184,17 +201,21 @@ Recall
 
 F1-score
 
-Visual results and evaluation metrics are documented in the notebooks.
+All results, visualizations, and comparisons are documented within the project notebooks.
 
 Contributing
 
 Contributions are welcome!
-For suggestions or improvements, feel free to open an issue or submit a pull request.
+If you’d like to improve the project or add new features:
+
+Open an issue
+
+Submit a pull request
 
 License
 
 This project is licensed under the MIT License.
-See the LICENSE file for details.
+See the LICENSE file for more details.
 
 Contact
 
